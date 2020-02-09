@@ -1,8 +1,6 @@
 {
     "full_name": "Your Name",
-    "email": "your@email.com",
     "project_name": "Name of your science project",
     "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
-    "project_short_description": "A short description of your project",
-    "release_date": "{% now 'local' %}"
+    "project_short_description": "A short description of your project"
 }
